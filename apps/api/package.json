@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node api/index.js",
     "dev": "tsup --watch --onSuccess \"node api/index.js\"",
     "build": "tsup",
     "clean": "rm -rf dist",
